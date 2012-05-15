@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5b12195b-14f5-4a50-8be4-349d7296730a" name="gudmundssonm@WMLI032191 2012-05-15 13:59:09" runUser="GROUPINFRA\gudmundssonm" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="86cf49bf-788a-4610-b4e9-4251082e7a36">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="c:\dotnet\ep.cs\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="gudmundssonm_WMLI032191 2012-05-15 13_59_09">
+      <DeploymentItem filename="c:\dotnet\ep.cs\ep.cs\bin\Debug\ep.cs.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-05-15T13:59:09.9703137+02:00" queuing="2012-05-15T13:59:10.0063158+02:00" start="2012-05-15T13:59:10.0123161+02:00" finish="2012-05-15T13:59:10.2983325+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShouldBeAbleToCloseConnection" storage="c:\dotnet\ep.cs\testconnection\bin\debug\testconnection.dll" id="f42db958-f3ac-165d-b535-eb51081ae795">
+      <Execution id="8a56bff1-7b70-44bf-b40b-b1b21c541052" />
+      <TestMethod codeBase="c:/dotnet/ep.cs/TestConnection/bin/Debug/TestConnection.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestConnection.UnitTest1, TestConnection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldBeAbleToCloseConnection" />
+    </UnitTest>
+    <UnitTest name="ShouldNotBeAbleToOpenconnectonTwice" storage="c:\dotnet\ep.cs\testconnection\bin\debug\testconnection.dll" id="3115ed26-5e48-9c36-7327-9228485c3d9f">
+      <Execution id="6b44a3a3-de57-4b4a-baa4-5263fb622ffb" />
+      <TestMethod codeBase="c:/dotnet/ep.cs/TestConnection/bin/Debug/TestConnection.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestConnection.UnitTest1, TestConnection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldNotBeAbleToOpenconnectonTwice" />
+    </UnitTest>
+    <UnitTest name="ShouldBeAbleToOpenConnection" storage="c:\dotnet\ep.cs\testconnection\bin\debug\testconnection.dll" id="6389bea3-7376-e850-0934-243aa2ed45dd">
+      <Execution id="a995da88-4b5c-49aa-8bde-d61e5bddd28e" />
+      <TestMethod codeBase="c:/dotnet/ep.cs/TestConnection/bin/Debug/TestConnection.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestConnection.UnitTest1, TestConnection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldBeAbleToOpenConnection" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3115ed26-5e48-9c36-7327-9228485c3d9f" executionId="6b44a3a3-de57-4b4a-baa4-5263fb622ffb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6389bea3-7376-e850-0934-243aa2ed45dd" executionId="a995da88-4b5c-49aa-8bde-d61e5bddd28e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f42db958-f3ac-165d-b535-eb51081ae795" executionId="8a56bff1-7b70-44bf-b40b-b1b21c541052" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="6b44a3a3-de57-4b4a-baa4-5263fb622ffb" testId="3115ed26-5e48-9c36-7327-9228485c3d9f" testName="ShouldNotBeAbleToOpenconnectonTwice" computerName="WMLI032191" duration="00:00:00.0231008" startTime="2012-05-15T13:59:10.0163164+02:00" endTime="2012-05-15T13:59:10.2703309+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6b44a3a3-de57-4b4a-baa4-5263fb622ffb">
+    </UnitTestResult>
+    <UnitTestResult executionId="a995da88-4b5c-49aa-8bde-d61e5bddd28e" testId="6389bea3-7376-e850-0934-243aa2ed45dd" testName="ShouldBeAbleToOpenConnection" computerName="WMLI032191" duration="00:00:00.0012562" startTime="2012-05-15T13:59:10.2723310+02:00" endTime="2012-05-15T13:59:10.2773313+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a995da88-4b5c-49aa-8bde-d61e5bddd28e">
+    </UnitTestResult>
+    <UnitTestResult executionId="8a56bff1-7b70-44bf-b40b-b1b21c541052" testId="f42db958-f3ac-165d-b535-eb51081ae795" testName="ShouldBeAbleToCloseConnection" computerName="WMLI032191" duration="00:00:00.0002964" startTime="2012-05-15T13:59:10.2783314+02:00" endTime="2012-05-15T13:59:10.2823316+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a56bff1-7b70-44bf-b40b-b1b21c541052">
+    </UnitTestResult>
+  </Results>
+</TestRun>

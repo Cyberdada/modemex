@@ -1,0 +1,7 @@
+c:\dotnet\ep.cs\TestConnection\bin\Debug\TestConnection.dll
+c:\dotnet\ep.cs\TestConnection\bin\Debug\TestConnection.pdb
+c:\dotnet\ep.cs\TestConnection\obj\Debug\TestConnection.csprojResolveAssemblyReference.cache
+c:\dotnet\ep.cs\TestConnection\obj\Debug\TestConnection.dll
+c:\dotnet\ep.cs\TestConnection\obj\Debug\TestConnection.pdb
+c:\dotnet\ep.cs\TestConnection\bin\Debug\ep.cs.exe
+c:\dotnet\ep.cs\TestConnection\bin\Debug\ep.cs.pdb

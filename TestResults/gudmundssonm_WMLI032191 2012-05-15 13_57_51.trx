@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2c2047ae-fbfd-4254-b5cc-b373a569894b" name="gudmundssonm@WMLI032191 2012-05-15 13:57:51" runUser="GROUPINFRA\gudmundssonm" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="86cf49bf-788a-4610-b4e9-4251082e7a36">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="gudmundssonm_WMLI032191 2012-05-15 13_57_51">
+      <DeploymentItem filename="c:\dotnet\ep.cs\ep.cs\bin\Debug\ep.cs.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-05-15T13:57:51.4483286+02:00" queuing="2012-05-15T13:57:51.5733358+02:00" start="2012-05-15T13:57:51.5783361+02:00" finish="2012-05-15T13:57:51.8753380+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="2" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShouldBeAbleToCloseConnection" storage="c:\dotnet\ep.cs\testconnection\bin\debug\testconnection.dll" id="f42db958-f3ac-165d-b535-eb51081ae795">
+      <Execution id="bd51283c-1739-4e5c-999e-536fa7df34be" />
+      <TestMethod codeBase="c:/dotnet/ep.cs/TestConnection/bin/Debug/TestConnection.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestConnection.UnitTest1, TestConnection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldBeAbleToCloseConnection" />
+    </UnitTest>
+    <UnitTest name="ShouldNotBeAbleToOpenconnectonTwice" storage="c:\dotnet\ep.cs\testconnection\bin\debug\testconnection.dll" id="3115ed26-5e48-9c36-7327-9228485c3d9f">
+      <Execution id="026c8e88-c922-4912-8958-b3c527f4f3a7" />
+      <TestMethod codeBase="c:/dotnet/ep.cs/TestConnection/bin/Debug/TestConnection.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestConnection.UnitTest1, TestConnection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldNotBeAbleToOpenconnectonTwice" />
+    </UnitTest>
+    <UnitTest name="ShouldBeAbleToOpenConnection" storage="c:\dotnet\ep.cs\testconnection\bin\debug\testconnection.dll" id="6389bea3-7376-e850-0934-243aa2ed45dd">
+      <Execution id="d996c1bf-a357-4930-bd18-d053032534cf" />
+      <TestMethod codeBase="c:/dotnet/ep.cs/TestConnection/bin/Debug/TestConnection.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestConnection.UnitTest1, TestConnection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldBeAbleToOpenConnection" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3115ed26-5e48-9c36-7327-9228485c3d9f" executionId="026c8e88-c922-4912-8958-b3c527f4f3a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6389bea3-7376-e850-0934-243aa2ed45dd" executionId="d996c1bf-a357-4930-bd18-d053032534cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f42db958-f3ac-165d-b535-eb51081ae795" executionId="bd51283c-1739-4e5c-999e-536fa7df34be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="026c8e88-c922-4912-8958-b3c527f4f3a7" testId="3115ed26-5e48-9c36-7327-9228485c3d9f" testName="ShouldNotBeAbleToOpenconnectonTwice" computerName="WMLI032191" duration="00:00:00.0198671" startTime="2012-05-15T13:57:51.5813362+02:00" endTime="2012-05-15T13:57:51.8053379+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="026c8e88-c922-4912-8958-b3c527f4f3a7">
+    </UnitTestResult>
+    <UnitTestResult executionId="d996c1bf-a357-4930-bd18-d053032534cf" testId="6389bea3-7376-e850-0934-243aa2ed45dd" testName="ShouldBeAbleToOpenConnection" computerName="WMLI032191" duration="00:00:00.0012209" startTime="2012-05-15T13:57:51.8053379+02:00" endTime="2012-05-15T13:57:51.8053379+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d996c1bf-a357-4930-bd18-d053032534cf">
+    </UnitTestResult>
+    <UnitTestResult executionId="bd51283c-1739-4e5c-999e-536fa7df34be" testId="f42db958-f3ac-165d-b535-eb51081ae795" testName="ShouldBeAbleToCloseConnection" computerName="WMLI032191" duration="00:00:00.0456530" startTime="2012-05-15T13:57:51.8053379+02:00" endTime="2012-05-15T13:57:51.8553379+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd51283c-1739-4e5c-999e-536fa7df34be">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestConnection.UnitTest1.ShouldBeAbleToCloseConnection threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at exercise.ConnectionImp.Close() in c:\dotnet\ep.cs\ep.cs\ConnectionImp.cs:line 40
+   at TestConnection.UnitTest1.ShouldBeAbleToCloseConnection() in c:\dotnet\ep.cs\TestConnection\TestConnectionImp.cs:line 95
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

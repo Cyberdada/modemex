@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1cd3bd2c-f892-40d0-b460-35c4275c86f7" name="gudmundssonm@WMLI032191 2012-05-15 14:26:09" runUser="GROUPINFRA\gudmundssonm" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="86cf49bf-788a-4610-b4e9-4251082e7a36">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="gudmundssonm_WMLI032191 2012-05-15 14_26_09">
+      <DeploymentItem filename="c:\dotnet\ep.cs\ep.cs\bin\Debug\ep.cs.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-05-15T14:26:09.3163379+02:00" queuing="2012-05-15T14:26:10.7614161+02:00" start="2012-05-15T14:26:10.8914162+02:00" finish="2012-05-15T14:26:17.8707669+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="4" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShouldBeAbleToCloseConnection" storage="c:\dotnet\ep.cs\testconnection\bin\debug\testconnection.dll" id="f42db958-f3ac-165d-b535-eb51081ae795">
+      <Execution id="e2b34aa8-23bb-4b35-b00c-19cb708bf0e9" />
+      <TestMethod codeBase="c:/dotnet/ep.cs/TestConnection/bin/Debug/TestConnection.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestConnection.UnitTest1, TestConnection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldBeAbleToCloseConnection" />
+    </UnitTest>
+    <UnitTest name="ShouldBeAbleToLoginWhenConnectionIsOpen" storage="c:\dotnet\ep.cs\testconnection\bin\debug\testconnection.dll" id="0d4375eb-99c1-69da-fe52-1b80659b6570">
+      <Execution id="4ca0c340-1255-48e5-b6b5-03224f6d6816" />
+      <TestMethod codeBase="c:/dotnet/ep.cs/TestConnection/bin/Debug/TestConnection.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestConnection.UnitTest1, TestConnection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldBeAbleToLoginWhenConnectionIsOpen" />
+    </UnitTest>
+    <UnitTest name="ShouldNotBeAbleToOpenconnectonTwice" storage="c:\dotnet\ep.cs\testconnection\bin\debug\testconnection.dll" id="3115ed26-5e48-9c36-7327-9228485c3d9f">
+      <Execution id="123bccff-bb40-489c-b8c1-7012b0882b3b" />
+      <TestMethod codeBase="c:/dotnet/ep.cs/TestConnection/bin/Debug/TestConnection.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestConnection.UnitTest1, TestConnection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldNotBeAbleToOpenconnectonTwice" />
+    </UnitTest>
+    <UnitTest name="ShouldNotBeAbleToLoginWhenConnectionIsClosed" storage="c:\dotnet\ep.cs\testconnection\bin\debug\testconnection.dll" id="71d6bebf-05fa-30c0-c032-8f76f81cdad7">
+      <Execution id="1da5de54-05bb-48d6-b5ee-8a3ca1be9412" />
+      <TestMethod codeBase="c:/dotnet/ep.cs/TestConnection/bin/Debug/TestConnection.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestConnection.UnitTest1, TestConnection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldNotBeAbleToLoginWhenConnectionIsClosed" />
+    </UnitTest>
+    <UnitTest name="ShouldBeAbleToOpenConnection" storage="c:\dotnet\ep.cs\testconnection\bin\debug\testconnection.dll" id="6389bea3-7376-e850-0934-243aa2ed45dd">
+      <Execution id="72ae866b-ee3f-4a7b-96d9-eb261848ac46" />
+      <TestMethod codeBase="c:/dotnet/ep.cs/TestConnection/bin/Debug/TestConnection.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestConnection.UnitTest1, TestConnection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldBeAbleToOpenConnection" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3115ed26-5e48-9c36-7327-9228485c3d9f" executionId="123bccff-bb40-489c-b8c1-7012b0882b3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6389bea3-7376-e850-0934-243aa2ed45dd" executionId="72ae866b-ee3f-4a7b-96d9-eb261848ac46" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f42db958-f3ac-165d-b535-eb51081ae795" executionId="e2b34aa8-23bb-4b35-b00c-19cb708bf0e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0d4375eb-99c1-69da-fe52-1b80659b6570" executionId="4ca0c340-1255-48e5-b6b5-03224f6d6816" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="71d6bebf-05fa-30c0-c032-8f76f81cdad7" executionId="1da5de54-05bb-48d6-b5ee-8a3ca1be9412" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="123bccff-bb40-489c-b8c1-7012b0882b3b" testId="3115ed26-5e48-9c36-7327-9228485c3d9f" testName="ShouldNotBeAbleToOpenconnectonTwice" computerName="WMLI032191" duration="00:00:03.9320564" startTime="2012-05-15T14:26:10.9414163+02:00" endTime="2012-05-15T14:26:15.9856646+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="123bccff-bb40-489c-b8c1-7012b0882b3b">
+    </UnitTestResult>
+    <UnitTestResult executionId="72ae866b-ee3f-4a7b-96d9-eb261848ac46" testId="6389bea3-7376-e850-0934-243aa2ed45dd" testName="ShouldBeAbleToOpenConnection" computerName="WMLI032191" duration="00:00:00.0011766" startTime="2012-05-15T14:26:15.9996654+02:00" endTime="2012-05-15T14:26:16.0066658+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72ae866b-ee3f-4a7b-96d9-eb261848ac46">
+    </UnitTestResult>
+    <UnitTestResult executionId="e2b34aa8-23bb-4b35-b00c-19cb708bf0e9" testId="f42db958-f3ac-165d-b535-eb51081ae795" testName="ShouldBeAbleToCloseConnection" computerName="WMLI032191" duration="00:00:00.0002970" startTime="2012-05-15T14:26:16.0136662+02:00" endTime="2012-05-15T14:26:16.0196666+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2b34aa8-23bb-4b35-b00c-19cb708bf0e9">
+    </UnitTestResult>
+    <UnitTestResult executionId="4ca0c340-1255-48e5-b6b5-03224f6d6816" testId="0d4375eb-99c1-69da-fe52-1b80659b6570" testName="ShouldBeAbleToLoginWhenConnectionIsOpen" computerName="WMLI032191" duration="00:00:00.8918935" startTime="2012-05-15T14:26:16.0246669+02:00" endTime="2012-05-15T14:26:16.9217148+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4ca0c340-1255-48e5-b6b5-03224f6d6816">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestConnection.UnitTest1.ShouldBeAbleToLoginWhenConnectionIsOpen threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at exercise.ConnectionImp.Login() in c:\dotnet\ep.cs\ep.cs\ConnectionImp.cs:line 59
+   at TestConnection.UnitTest1.ShouldBeAbleToLoginWhenConnectionIsOpen() in c:\dotnet\ep.cs\TestConnection\TestConnectionImp.cs:line 109
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1da5de54-05bb-48d6-b5ee-8a3ca1be9412" testId="71d6bebf-05fa-30c0-c032-8f76f81cdad7" testName="ShouldNotBeAbleToLoginWhenConnectionIsClosed" computerName="WMLI032191" duration="00:00:00.8255328" startTime="2012-05-15T14:26:16.9377158+02:00" endTime="2012-05-15T14:26:17.7697611+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1da5de54-05bb-48d6-b5ee-8a3ca1be9412">
+    </UnitTestResult>
+  </Results>
+</TestRun>

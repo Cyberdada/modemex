@@ -1,0 +1,4 @@
+c:\dotnet\ep.cs\ep.cs\bin\Debug\ep.cs.exe
+c:\dotnet\ep.cs\ep.cs\bin\Debug\ep.cs.pdb
+c:\dotnet\ep.cs\ep.cs\obj\x86\Debug\ep.cs.exe
+c:\dotnet\ep.cs\ep.cs\obj\x86\Debug\ep.cs.pdb
